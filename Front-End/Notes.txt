@@ -1,1 +1,54 @@
-// How Internet Really Works
+How Internet Really Works
+-------------------------
+Suppose mein ek message bhej raha hoon mera jo message mein woh odisha se jaega Bhopal tak 
+aur woh jo message jata hai woh actual mein jata kaise woh jata hai in the form os packets 
+
+aur packeta kya hai packets , packets hai data jo apke mobile phone se nikalte hai
+in the form of data and packets chote chote tukde hote hein aur woh data jaega tower 
+tak apke ass pass jo tower hoga us tak jaega and wahan se data travel karega
+
+kaise karega travel zameen ke niche se jo wires hoga uske through travel karega
+electric signal ke form mein aur kahan tak karega travel , Jio (Tower) apke 
+case mien Airtel Ho sakhta hai Kisi ke case mein VodaFone ho sakhta hai, ya koi 
+aur internet service provider ho sakhta hai (ISP)
+
+Aur wahan se yeh jo ISP hote hein jaise ki jio etc etc woh decide karte hai 
+ki es data ko agge forward karna hai ya nahi esliye kuch kuch website jo aap 
+night mein open karo ya din mein woh open nahi hota hai
+
+sO jio decide karega ki data ko jane dene hai ya nahi, so jio ke 
+pass abhi data pada hua hai but data ko jana hai america tab role mein
+aaega DNS (domain name system) technically america jana bhi nahi hota
+toh role mein atta DNS,  
+
+Notes: 
+-----
+Mobile se nikelga in the form of packets wahan se jaega tower tak tower se 
+esko electric signals ko convert kiya jo zameen se jata hai wahan se sidha 
+ISP (ISP matlab Jio, Airtel, Vodafone)
+
+Mobile -> Packets -> Tower -> Electric Signal -> ISP -> ✅ || ❌ -> DNS
+✅ :- Yahan pe eska matlab hai yeah deccide karega ki data ko jane dete hein
+aggar data ko jane de raha hai matlab woh data/website ban nahi hua hai and 
+we can go forward aggar nahi jane de raha hai then its mean agge nahi ja sakhte 
+kyun ki woh data ban hai 
+
+❌ : eska matlab data/website ban hai agge nahi ja sakhta. 
+
+. Duniya mein koi bhi website ho woh exist nahi karta for example 
+    1. google.com
+    2. facebook.com
+    3. sheriyans.com
+
+aggar koi chiz ho jo exist karta hao woh hai (192.168.43.1) and yeah jo number hai 
+IP address
+
+so for example aggar mein type kiya google.com then woh data jaega packets ke 
+through and kahan jaega apke pass wale tower (network tower) pe jahan data ko 
+convert kiya jaega into electric signal and wahan se jaega ISP jahan check 
+hoga ki yeah data/website valid hai ya nahi and data pack hai ya nahi 
+aggar haai toh jane do but ISP ne yeah bhi kaha ki google.com jaise toh 
+kuch hota hi nahi and ISP ne usko bheja domain name system ke pass (DNS)
+and dns server ne isp ko lautaya ek number (ip address ki baat ho rai hai 
+yahan pe number ki matlab 198.168.43.1) tab ISP ne us IP address pe request
+bheji.
