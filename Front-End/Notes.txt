@@ -52,3 +52,19 @@ kuch hota hi nahi and ISP ne usko bheja domain name system ke pass (DNS)
 and dns server ne isp ko lautaya ek number (ip address ki baat ho rai hai 
 yahan pe number ki matlab 198.168.43.1) tab ISP ne us IP address pe request
 bheji.
+
+so abhi tak hame IP Address ka pata chal gaya aur hame yeah bhi pata chala ki woh 
+IP Address america ka toh eetna dur data jaega kaise india se america data jaega 
+kaise
+
+ek ja sakhta hai ocean ke through and aur ek hai satelite ke through so hamra 
+jo data transfer hota hai woh ocean ke thorugh hota hai with the help of fiber
+optics. 
+
+Notes:
+-----
+ISP :- INTERNET SERVICE PROVIDER 
+DNS :- DOMAIN NUMBER SYSTEM
+IP Address :- INTERNET PROTOCOL ADDRESS. 
+
+Koi bhi device for example mobile and laptop unka khud ka IP Address nahi hai. 
