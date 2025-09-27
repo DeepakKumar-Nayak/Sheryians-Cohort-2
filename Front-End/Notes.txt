@@ -1,11 +1,13 @@
 How Internet Really Works
 -------------------------
-Suppose mein ek message bhej raha hoon mera jo message mein woh odisha se jaega Bhopal tak 
-aur woh jo message jata hai woh actual mein jata kaise woh jata hai in the form os packets 
+Suppose mein ek message bhej raha hoon mera jo message hai woh odisha
+se jaega Bhopal tak aur woh jo message jata hai woh actual mein 
+jata kaise woh jata hai in the form of packets 
 
-aur packeta kya hai packets , packets hai data jo apke mobile phone se nikalte hai
-in the form of data and packets chote chote tukde hote hein aur woh data jaega tower 
-tak apke ass pass jo tower hoga us tak jaega and wahan se data travel karega
+aur packeta kya hai, packets hai data jo apke mobile phone se nikalte hai
+in the form of data and packets chote chote tukde hote hein aur woh data 
+jaega tower tak apke ass pass jo tower hoga us tak jaega and wahan 
+se data travel karega
 
 kaise karega travel zameen ke niche se jo wires hoga uske through travel karega
 electric signal ke form mein aur kahan tak karega travel , Jio (Tower) apke 
@@ -20,6 +22,23 @@ sO jio decide karega ki data ko jane dene hai ya nahi, so jio ke
 pass abhi data pada hua hai but data ko jana hai america tab role mein
 aaega DNS (domain name system) technically america jana bhi nahi hota
 toh role mein atta DNS,  
+
+waise actually DNS hame provide karega ek number (IP Address) and kyun 
+kyun ki for example ham jo website ki baat kar rahe hai jaise ki 
+youtube.com ho ya google.com ho aisa koi website exist nahi karti
+
+toh ham usko access kaise karte hai, so actual mein hota kya hai 
+dns ek ip adress bhejta hai and us ip adress jo hai link hota hai
+google.com se , aggar ham koi aur website vist karna chahte hai lets 
+say shreyans.com tab kya hota hai hame ek ip adress milta hai woh 
+IP address link hota hai sheriyans.com website se. 
+
+so aab hame mil gaya ek ip address par hamare pass jo io address hai 
+woh hai america ka to   h wahan tak jaega kaise there are two ways 
+
+ek ja sakhta hai ocean ke through and aur ek hai satelite ke through so hamra 
+jo data transfer hota hai woh ocean ke thorugh hota hai with the help of fiber
+optics.
 
 Notes: 
 -----
@@ -40,7 +59,7 @@ kyun ki woh data ban hai
     2. facebook.com
     3. sheriyans.com
 
-aggar koi chiz ho jo exist karta hao woh hai (192.168.43.1) and yeah jo number hai 
+aggar koi chiz ho jo exist karta hai woh hai (192.168.43.1) and yeah jo number hai 
 IP address
 
 so for example aggar mein type kiya google.com then woh data jaega packets ke 
@@ -52,14 +71,7 @@ kuch hota hi nahi and ISP ne usko bheja domain name system ke pass (DNS)
 and dns server ne isp ko lautaya ek number (ip address ki baat ho rai hai 
 yahan pe number ki matlab 198.168.43.1) tab ISP ne us IP address pe request
 bheji.
-
-so abhi tak hame IP Address ka pata chal gaya aur hame yeah bhi pata chala ki woh 
-IP Address america ka toh eetna dur data jaega kaise india se america data jaega 
-kaise
-
-ek ja sakhta hai ocean ke through and aur ek hai satelite ke through so hamra 
-jo data transfer hota hai woh ocean ke thorugh hota hai with the help of fiber
-optics. 
+ 
 
 Notes:
 -----
@@ -68,3 +80,66 @@ DNS :- DOMAIN NUMBER SYSTEM
 IP Address :- INTERNET PROTOCOL ADDRESS. 
 
 Koi bhi device for example mobile and laptop unka khud ka IP Address nahi hai. 
+IP address hame tab milta hai jab hamara data on hota hai. Data jab off ho tab 
+hame IP Address nahi milta hai. jaise ki aggar mera data off hai toh IP Address 
+chala jata hai and kahan jata hai woh kisi aur device/mobile pe chala jata hai 
+
+duniya mein ek time pe ek hi ip address milta hai.
+and ham numbers ko yaad nahi rakh sakhta esliye usko map kiya gaya hai website
+name ke saath. 
+
+www.sheryians.com ko map kiya hai 198.168.11.01 (this number is just for example)
+but in actual yahi number hote hein jinko map kiya jata hai actual website ke 
+saath. 
+
+ISP hame IP Address dete hein 
+
+
+1. How internet works: 
+. History of web :- web ke 3 versions hai ek hai 
+    web 1.0
+    web 2.0
+    web 3.0 
+abhi jo ham use kar rahe hai woh hai web2.0 and aisa kaha jata hai ki hamara 
+future hai web 3.0 
+
+jab Internet pehle bar hamene use kiya tha aggar ham tab koi website open 
+larte they woh hamesha read wale hote theey matlab ham khali dekh sakhte hai
+padh sakhte hain par ham khud kuch likh nahi sakhte jiske ham bolte hain 
+web 1.0 aur main 1990 ki baat kar raha hoon. 
+
+aab ham jo use kar rahe hein woh hai web 2.0 jo ki hai read and write.
+aab ham pad sakhte hain, likh sakhte hai, dekh sakhte hain 
+
+web 3.0 ke bare mein baat karte hein jaise ki instagram aab mujhe 
+ek bandhe ka account udana hai kisi bhi bande ka account toh instagram
+ke pass woh power hai ki woh data delete kar sakhta hai jaise ki ham 
+aggar sheriyans ki baat karte hai hamne unse course purchase kiya hai 
+aggar woh chahe toh woh hamara purchase uda sakhte hai yeah power
+hai unke pass that means data ka owner ham nahi hai koi aur hai 
+jaise instagran ki case mein data ka owner hai meta and web3.0 yahi 
+solve karta hai ki web 3.0 mein jo data ka onwner hinge woh ham honge
+rights hame pass honge data hamare pass honge, user ka data company ke pass
+nahi user ka data user ke pass hoga ek secreat key ke through and woh 
+ek digital key hote hein. web3 kafi rare use hota hai. 
+
+. How Computer Communicate with Each Other : internet ke through Communicate
+karte hai jaie ki data packets ke thorugh nikal ke as pass ke tower tak 
+jate hain jahan data ko transfer kiya jata hai electric wires ke through 
+jo zameen ke neeche hote hein wahan se atta hai ISP ke pass and ISP se DNS
+tak jata hai jahan hame ek IP Address milta hai and us IP Address ko 
+dhundte dhundte ham us computer tak pahunch jate hein.
+
+. What is Domain Name, IP, MAC Address, Routing. 
+    domain name :- www.youtube.com
+    ip :- 198.168.11.01 (internet protocol) always unique
+
+Notes: 
+------
+notes about internet protocol so for example mere pass ek device hai and 
+us device se mujhe use karna hai internet and (ISP) MEANS JIO , VODAFONE etc etc
+ne hame ek ip de diya and suppose hamne us device pe koi  illegal kam kiya
+toh hame woh ip padkda jaega and us ip se hame us device ki info mil jaegi. 
+
+pehle ip khali numbers hote they but aaj kal combination of characters and numbers 
+mein hame ip milega and esliye ham agge jake padhunge IPV4 AND IPV6.
